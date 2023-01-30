@@ -1,0 +1,117 @@
+body {
+	background : black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 593px;
+    height: 29px;
+    left: 355px;
+    top: 65px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+nav a {
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+main {
+    color: white;
+}
+
+h1 {
+    width: 593px;
+    height: 168px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 235px 355px auto;
+    
+
+}
+
+strong {
+    color: #22D4FD;
+}
+
+.Foto {
+    float: right;
+    position: absolute;
+    height: 550px;
+    left: 1030px;
+    top: 210px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 355px;
+    width: 610px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 56px 490px;
+    width: 270px;
+}
+
+#lista-de-redes{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: 530px;
+    top: 610px;
+}
+
+#git {
+    border : 2px solid #22D4FD;
+    padding: 0 65px;
+    border-radius: 5px;
+}
+
+#link {
+    border : 2px solid #22D4FD;
+    padding: 0 59px;
+    border-radius: 5px;
+}
+
+#instagram {
+    padding: 0 53px;
+    border : 2px solid #22D4FD;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:  #22D4FD;
+    position: absolute;
+    width: 1920px;
+    height: 88px;
+    top: 1063px;
+}
+
+.rodape {
+    color: #123F77;
+    padding: 25px;
+    position: absolute;
+    left: 500px;
+}
